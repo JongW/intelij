@@ -13,6 +13,7 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="CheckinProject" />
   <action id="CopyPaths" />
   <action id="DatabaseView.CopyDdlAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
@@ -23,6 +24,7 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
   </action>
@@ -31,5 +33,8 @@
     <keyboard-shortcut first-keystroke="ctrl q" />
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="shift ctrl alt q" />
+  </action>
+  <action id="VimActions">
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
 </keymap>
