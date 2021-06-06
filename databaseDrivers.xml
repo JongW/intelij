@@ -84,6 +84,9 @@
     </driver>
     <driver id="sqlite.xerial">
       <option name="auto-sync" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
+      </library>
     </driver>
     <driver id="sybase.jtds">
       <option name="auto-sync" value="true" />
